@@ -1,0 +1,6 @@
+<!--pages/video/video.wxml-->
+<view class="body">
+<video class="video"autoplay="true" lopp='true' src="{{src}}"></video>
+<button class="buy" bindtap="click">购买</button>
+
+</view>

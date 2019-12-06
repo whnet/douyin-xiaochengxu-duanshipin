@@ -1,0 +1,6 @@
+<!--pages/video2/video2.wxml-->
+<video src='http://1255883977.vod2.myqcloud.com/d1975e76vodgzp1255883977/84951cf65285890784164350877/lpyI9TqyGLUA.mp4' autoplay='true' controls='{{false}}' bindplay='statisticPlay' style='height: calc(100% - 3rem);width: 100%;left: 0;position:fixed;' loop='true'
+
+id='videPlay'/>
+
+<cover-view  bindtouchend='touchEnd'  catchtap='stopPlay' bindtouchstart="touchStart" style='position: fixed;top:0;left:0;background:rgba(0,0,0,0.1);height: calc(100% - 3rem);width: 100%;z-index:1;' />
