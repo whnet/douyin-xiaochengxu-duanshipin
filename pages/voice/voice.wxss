@@ -1,0 +1,14 @@
+/* pages/voice/voice.wxss */
+page{
+  width: 100%;
+}
+.btn{
+  margin-top: 10rpx;
+  
+}
+
+.url{
+  word-wrap: break-word;
+ word-break: break-all;
+ padding:28rpx;width:100%;box-sizing: border-box;
+}

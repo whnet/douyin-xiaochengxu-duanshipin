@@ -2,8 +2,7 @@
 <!--README-->
 <!--仿抖音微信小程序短视频-->
 <!--this.data.list中所用的两个视频地址为本人自己的临时云存储地址，届时视频链接可能失效，如果视频链接失效，您只需自己随意从抖音上下载两个视频替换掉地址即可正常运行demo-->
-
-  <swiper class="swiper"  vertical='true' circular='true' easing-function='default'
+<swiper class="swiper"  vertical='true' circular='true' easing-function='default'
 bindchange='bindchange'
         >
         <block wx:for="{{list}}" wx:key="*this">
@@ -14,4 +13,5 @@ bindchange='bindchange'
                 </view>
           </swiper-item>
         </block>
-  </swiper>
+  </swiper> 
+  

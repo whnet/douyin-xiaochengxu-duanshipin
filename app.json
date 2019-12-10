@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/voice/voice",
     "pages/index/index",
     "pages/video/video",
     "pages/video2/video2"
@@ -8,7 +9,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "短视频模拟测试",
+    "navigationBarTitleText": "明星端录音测试",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

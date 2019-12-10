@@ -1,0 +1,12 @@
+<button bindtap="start" class='btn'>开始录音</button>
+<!-- <button bindtap="pause" class='btn'>暂停录音</button>
+<button bindtap="resume" class='btn'>继续录音</button> -->
+<button bindtap="stop" class='btn'>停止录音</button>
+
+--录音时长{{times}}-
+<button bindtap="play" class='btn'>播放录音</button>
+<button bindtap="stopPlay" class='btn'>暂停播放</button>
+
+<view class="url">{{voidurl}}</view>
+
+<view >录音、暂停录音，计时，播放录音，暂停播放录音 已通过开发工具+安卓+ios真机测试，录音结束后会显示音频地址，录音回放可以播放无数次</view>
